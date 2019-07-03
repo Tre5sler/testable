@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * Created by: Hemant Saini
+ * Date: Tue, 02 Jul 2019 11:58:53 +0000
+ */
+
+namespace App\Services\Contract;
+
+interface CreateUserContract
+{
+    public function getFirstName();
+
+    public function getLastName();
+
+    public function getAge();
+
+    public function getCreatedAt();
+
+    public function getUpdatedAt();
+}
